@@ -1,0 +1,16 @@
+{
+  "listallbreeds": {
+    "method": "get",
+    "url": "http://localhost:8080/api/breeds/list/all",
+    "json": true,
+    "body": {
+    }
+  },
+  "getbreedimages": {
+    "method": "get",
+    "url": "http://localhost:8080/api/breed/images?breed=bulldog&subbreed=english",
+    "json": true,
+    "body": {
+    }
+  }
+}
